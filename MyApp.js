@@ -1,14 +1,16 @@
 import React from "react"
+import Header from "./Header"
+import MainContent from "./MainContent"
+ 
+import Footer from "./Footer"
 
 function MyApp(){
     return (
     <div>
-        <h1>This is my app</h1>
-       <ul>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-       </ul>
+        <Header />
+        <MainContent />
+        <Footer />
+
     </div>
  )
 }
